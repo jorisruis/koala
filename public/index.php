@@ -38,7 +38,7 @@
 </div>
 <!-- END IMAGE HEADER -->
 <!-- MENU -->
-<!-- <div class="row"> -->
+<div class="row">
 	<div class="col-12 col-m-12 menu">
 		<ul class="menu-list">
 			<li><a href="#">Home</a></li>
@@ -48,8 +48,26 @@
 			<li><a href="#">Contact</a></li>
 		</ul>
 	</div>
-<!-- </div> -->
+</div>
 <!-- END MENU -->
+<!-- HEADER DIENSTEN -->
+<div class="row">
+	<div class="col-12 col-m-12">
+		<div class="diensten">
+			<h3>Diensten</h3>
+			<h4>Koala biedt verschillende webdiensten volledig op maat</h4>
+		</div>
+	</div>
+</div>
+<!-- END HEADER DIENSTEN -->
+<!-- DIENSTEN -->
+<div class="row">
+	<div class="col-3 col-m-3"></div>
+	<div class="col-3 col-m-3"></div>
+	<div class="col-3 col-m-3"></div>
+	<div class="col-3 col-m-3"></div>
+</div>
+<!-- END DIENSTEN-->
 
 
 </body>
