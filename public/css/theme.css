@@ -15,7 +15,36 @@
     display: block;
 }
 
+body{
+	margin:0;
+}
+
 /* Stuff that applies to every viewport */
+.topheader{
+	padding-top:0;
+	padding-bottom:0;
+	background-color: #328305;
+	color:white;
+}
+
+.topheader-menu-1{
+	text-decoration: none;
+}
+
+.topheader-menu-1 li{
+	list-style-type: none;
+	display:inline;
+}
+
+.topheader-menu-2{
+	text-decoration: none;
+}
+
+.topheader-menu-2 li{
+	list-style-type: none;
+	display:inline;
+}
+
 
 /* Images */
 
