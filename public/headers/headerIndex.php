@@ -4,6 +4,8 @@
 	<title>Panda Web development</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet" type="text/css">
 	<!-- Custom stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/theme.css">
 	<!-- Font awesome -->
