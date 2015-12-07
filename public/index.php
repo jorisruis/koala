@@ -32,6 +32,12 @@
 	</div>
 </div>
 <!-- END BRAND NAME -->
+<!-- IMAGE HEADER -->
+<div class="row">
+		<img src="images/image-header.jpg" alt="image-header">
+
+</div>
+<!-- END IMAGE HEADER -->
 
 
 </body>

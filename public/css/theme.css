@@ -54,6 +54,14 @@ body{
 
 
 /* Images */
+img {
+    width: 100%;
+    height: auto;
+}
+
+#image-header{
+	
+}
 
 /* Fonts */
 
