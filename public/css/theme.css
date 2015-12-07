@@ -62,14 +62,23 @@ body{
 }
 
 .menu{
+	padding-top:0;
+	padding-bottom:0;
+	
+}
+
+.menu-list{
 	text-align: center;
 	margin:auto;
 }
 
-.menu li{
-	display:inline;
-	padding-right:5%;
-	color:#328305;
+.menu-list li{
+	display: inline-block;
+	width: 15%;
+	position: relative;
+	min-height: 100px;
+	background: #ccc;
+	padding-top: 5%;
 }
 
 

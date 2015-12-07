@@ -39,8 +39,8 @@
 <!-- END IMAGE HEADER -->
 <!-- MENU -->
 <div class="row">
-	<div class="col-12 col-m-12">
-		<ul class="menu">
+	<div class="col-12 col-m-12 menu">
+		<ul class="menu-list">
 			<li>Home</li>
 			<li>Diensten</li>
 			<li>Portfolio</li>
