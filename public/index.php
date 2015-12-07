@@ -33,22 +33,22 @@
 </div>
 <!-- END BRAND NAME -->
 <!-- IMAGE HEADER -->
-<div class="row">
+<div class="row" id="image-header">
 	<img src="images/image-header.jpg" alt="image-header">
 </div>
 <!-- END IMAGE HEADER -->
 <!-- MENU -->
-<div class="row">
+<!-- <div class="row"> -->
 	<div class="col-12 col-m-12 menu">
 		<ul class="menu-list">
-			<li>Home</li>
-			<li>Diensten</li>
-			<li>Portfolio</li>
-			<li>Team</li>
-			<li>Contact</li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Diensten</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Team</a></li>
+			<li><a href="#">Contact</a></li>
 		</ul>
 	</div>
-</div>
+<!-- </div> -->
 <!-- END MENU -->
 
 

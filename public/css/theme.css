@@ -62,14 +62,16 @@ body{
 }
 
 .menu{
-	padding-top:0;
-	padding-bottom:0;
-	
+	padding:0;
 }
 
 .menu-list{
 	text-align: center;
 	margin:auto;
+	border-top-style: solid;
+	border-top-color:#328305;
+	border-bottom-style: solid;
+	border-bottom-color:#328305;
 }
 
 .menu-list li{
@@ -81,6 +83,15 @@ body{
 	padding-top: 5%;
 }
 
+.menu-list li a{
+	text-decoration: none;
+	color:initial;
+}
+
+.menu-list li a:visited{
+	color:#328305;
+}
+
 
 /* Images */
 img {
@@ -89,7 +100,7 @@ img {
 }
 
 #image-header{
-
+	
 }
 
 /* Fonts */
