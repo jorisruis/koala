@@ -6,6 +6,8 @@
 	
 	<!-- Custom stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/theme.css">
+	<!-- Font awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	
 	<!-- jQuery & custom JS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
