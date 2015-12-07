@@ -52,6 +52,14 @@ body{
 	margin:auto;
 }
 
+#brand-name h1{
+	margin-bottom:0;
+}
+
+#brand-name h3{
+	margin-top:0;
+}
+
 .menu{
 	text-align: center;
 	margin:auto;
