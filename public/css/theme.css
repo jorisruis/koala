@@ -52,6 +52,16 @@ body{
 	margin:auto;
 }
 
+.menu{
+	text-align: center;
+	margin:auto;
+}
+
+.menu li{
+	display:inline;
+	padding-right:5%;
+}
+
 
 /* Images */
 img {
@@ -60,7 +70,7 @@ img {
 }
 
 #image-header{
-	
+
 }
 
 /* Fonts */
