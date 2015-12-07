@@ -10,7 +10,7 @@
 					</ul>
 				</div>
 				<div class="col-6 col-m-6 topheader">
-					<ul class="topheader-menu-2">
+					<ul class="topheader-menu-2 topheader-menu-m-2">
 						<li>Latest News</li>
 						<li>Login</li>
 						<li>Register</li>

@@ -43,6 +43,7 @@ body{
 .topheader-menu-2 li{
 	list-style-type: none;
 	display:inline;
+	padding-right:5%;
 }
 
 
@@ -89,6 +90,10 @@ body{
 	.col-m-10 {width: 83.33%;}
 	.col-m-11 {width: 91.66%;}
 	.col-m-12 {width: 100%;}
+
+	.topheader-menu-m-2 li{
+		font-size:80%;
+	}
 
 /*	body{
 		background-color: red;
