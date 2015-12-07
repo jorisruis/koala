@@ -33,8 +33,8 @@
 </div>
 <!-- END BRAND NAME -->
 <!-- IMAGE HEADER -->
-<div class="row" id="image-header">
-	<img src="images/image-header.jpg" alt="image-header">
+<div class="row">
+	<img src="images/image-header.jpg" alt="image-header" id="image-header">
 </div>
 <!-- END IMAGE HEADER -->
 <!-- MENU -->
