@@ -25,6 +25,7 @@ body{
 	padding-bottom:0;
 	background-color: #328305;
 	color:white;
+	font-size:80%;
 }
 
 .topheader-menu-1{
@@ -44,6 +45,11 @@ body{
 	list-style-type: none;
 	display:inline;
 	padding-right:5%;
+}
+
+#brand-name{
+	text-align: center;
+	margin:auto;
 }
 
 
@@ -90,10 +96,6 @@ body{
 	.col-m-10 {width: 83.33%;}
 	.col-m-11 {width: 91.66%;}
 	.col-m-12 {width: 100%;}
-
-	.topheader-menu-m-2 li{
-		font-size:80%;
-	}
 
 /*	body{
 		background-color: red;
