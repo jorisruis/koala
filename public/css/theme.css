@@ -119,6 +119,7 @@ body{
 	background-color: white;
     position: relative;
     overflow: hidden;
+    z-index: 1;
 }
 
 .portfolio:before{
@@ -146,9 +147,12 @@ body{
 
 .portfolio-item{
 	background-color: white;
+	z-index: 1;
 }
 
 .portfolio-item-square{
+	position:relative;
+	z-index:1;
     width: 23vw;
     height: 30vw;
     border: solid 1px #bdbdbd;
@@ -197,6 +201,22 @@ body{
 }
 
 #contact-title-two{
+	text-align: center;
+}
+
+#contact-item-one{
+	text-align: right;
+}
+
+#contact-item-two{
+	text-align: center;
+}
+
+#contact-item-three{
+	text-align: left;
+}
+
+#contact-item-four{
 	text-align: center;
 }
 
