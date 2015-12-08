@@ -58,21 +58,25 @@ body{
 }
 
 .menu{
-	padding:0;
+	padding: 0;
 }
 
 .menu-list{
 	text-align: center;
 	margin: auto;
-	border-bottom: solid 5px #559134;
 }
 
 .menu-list li{
 	display: inline-block;
-	width: 15%;
+	width: 7%;
 	position: relative;
 	min-height: 10%;
-	padding-top: 5%;
+	padding-top: 3%;
+	border-bottom: solid 5px #559134;
+}
+
+.menu-list li:hover{
+	border-bottom: solid 5px #F7F8FA;
 }
 
 .menu-list li a{
