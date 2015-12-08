@@ -105,8 +105,8 @@ body{
 }
 
 .diensten-circle{
-	width: 200px;
-    height: 200px;
+	width: 20vw;
+    height: 20vw;
     border-radius: 50%;
     border-style: solid;
     border-color:#bdbdbd;
@@ -117,6 +117,27 @@ body{
 
 .diensten-circle-text{
 	text-align:center;
+}
+
+.portfolio{
+	/* Dit staat nog niet goed! */
+	/*background-image: url("../images/background-portfolio.jpg");*/
+	/*background-repeat:no-repeat;*/
+}
+
+.portfolio-item{
+	
+}
+
+.portfolio-item-square{
+    width: 23vw;
+    height: 30vw;
+    border-style: solid;
+    border-color:#bdbdbd;
+    border-width: 1px;
+    background-color: white;
+    margin: auto;
+    background-color:white;
 }
 
 
@@ -132,8 +153,8 @@ img {
 }
 
 #brand-image{
-	width: 290px;
-	height: 73px;
+	width:29vw;
+	height:7.3vw;
 	background-image: url("../images/brand-image.png");
 	background-size: cover;
 	display: block;
