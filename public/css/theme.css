@@ -65,7 +65,8 @@ body{
 	text-align: center;
 	margin:auto;
 	border-bottom-style: solid;
-	border-bottom-color:#328305;
+	border-bottom-color:#e0e0e0;
+	/* #328305 */
 }
 
 .menu-list li{
@@ -90,13 +91,32 @@ body{
 	color:#328305;
 }
 
-.diensten{
+.header-diensten{
 	margin-top:2%;
 	background-color: #F7F8FA;
 }
 
-.diensten-text{
+.header-diensten-text{
 	text-align: center;
+}
+
+.diensten{
+	background-color: #F7F8FA;
+}
+
+.diensten-circle{
+	width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color:#bdbdbd;
+    border-width: 1px;
+    background-color: white;
+    margin: auto;
+}
+
+.diensten-circle-text{
+	text-align:center;
 }
 
 
