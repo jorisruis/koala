@@ -123,6 +123,17 @@ body{
 	text-align:center;
 }
 
+.portfolio{
+	/* Dit staat nog niet goed! */
+	/*background-image: url("../images/background-portfolio.jpg");*/
+	background-color: black;
+	background-repeat:no-repeat;
+}
+
+.portfolio-rectangle{
+	background-color:white;
+}
+
 
 /* Images */
 img {
