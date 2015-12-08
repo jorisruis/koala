@@ -246,6 +246,12 @@ body{
 
 footer{
 	background-color:#2a2b2c;
+
+}
+
+.footer-section{
+	padding-top:0;
+	padding-bottom:0;
 }
 
 #footer-list li{
