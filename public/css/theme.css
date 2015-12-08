@@ -141,6 +141,27 @@ body{
     background-color: white;
 }
 
+.team-beschrijving{
+	background-color: #F7F8FA;
+}
+
+.contact{
+	background-image: url("../images/splash-image.jpg");
+	background-position: center;
+    background-position-x: 75%;
+    background-position-y: 75%;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#contact-title-one{
+	text-align: center;
+}
+
+#contact-title-two{
+	text-align: center;
+}
+
 
 /* Images */
 img {
