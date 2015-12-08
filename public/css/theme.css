@@ -116,9 +116,9 @@ img {
 }
 
 #brand-image{
-	width: 311px;
-	height: 85px;
-	background-image: url("../images/logo.png");
+	width: 290px;
+	height: 73px;
+	background-image: url("../images/brand-image.png");
 	background-size: cover;
 	display: block;
 	margin: auto;
