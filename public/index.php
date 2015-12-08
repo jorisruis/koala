@@ -54,7 +54,7 @@
 	<div class="col-12 col-m-12 header-diensten">
 		<div class="header-diensten-text">
 			<h3>Diensten</h3>
-			<h4>Koala biedt verschillende webdiensten volledig op maat</h4>
+			<h4>Mixture Webdevelopment biedt verschillende webdiensten volledig op maat</h4>
 		</div>
 	</div>
 </div>
