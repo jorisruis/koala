@@ -17,6 +17,7 @@
 
 body{
 	margin:0;
+	font-family: 'Josefin Slab', serif;
 }
 
 /* Stuff that applies to every viewport */
@@ -61,14 +62,45 @@ body{
 }
 
 .menu{
-	text-align: center;
-	margin:auto;
+	padding:0;
 }
 
-.menu li{
-	display:inline;
-	padding-right:5%;
+.menu-list{
+	text-align: center;
+	margin:auto;
+	border-bottom-style: solid;
+	border-bottom-color:#328305;
+}
+
+.menu-list li{
+	display: inline-block;
+	width: 15%;
+	position: relative;
+	min-height: 100px;
+	/*background: #ccc;*/
+	padding-top: 5%;
+}
+
+.menu-list li a{
+	text-decoration: none;
+	color:initial;
+}
+
+.menu-list li a:hover{
 	color:#328305;
+}
+
+.menu-list li a:active{
+	color:#328305;
+}
+
+.diensten{
+	margin-top:2%;
+	background-color: #F7F8FA;
+}
+
+.diensten-text{
+	text-align: center;
 }
 
 
@@ -79,7 +111,8 @@ img {
 }
 
 #image-header{
-
+	border-bottom-style: solid;
+	border-bottom-color:#e0e0e0;
 }
 
 /* Fonts */

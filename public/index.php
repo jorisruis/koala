@@ -34,22 +34,40 @@
 <!-- END BRAND NAME -->
 <!-- IMAGE HEADER -->
 <div class="row">
-	<img src="images/image-header.jpg" alt="image-header">
+	<img src="images/image-header.jpg" alt="image-header" id="image-header">
 </div>
 <!-- END IMAGE HEADER -->
 <!-- MENU -->
 <div class="row">
-	<div class="col-12 col-m-12">
-		<ul class="menu">
-			<li>Home</li>
-			<li>Diensten</li>
-			<li>Portfolio</li>
-			<li>Team</li>
-			<li>Contact</li>
+	<div class="col-12 col-m-12 menu">
+		<ul class="menu-list">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Diensten</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Team</a></li>
+			<li><a href="#">Contact</a></li>
 		</ul>
 	</div>
 </div>
 <!-- END MENU -->
+<!-- HEADER DIENSTEN -->
+<div class="row">
+	<div class="col-12 col-m-12 diensten">
+		<div class="diensten-text">
+			<h3>Diensten</h3>
+			<h4>Koala biedt verschillende webdiensten volledig op maat</h4>
+		</div>
+	</div>
+</div>
+<!-- END HEADER DIENSTEN -->
+<!-- DIENSTEN -->
+<div class="row">
+	<div class="col-3 col-m-3"></div>
+	<div class="col-3 col-m-3"></div>
+	<div class="col-3 col-m-3"></div>
+	<div class="col-3 col-m-3"></div>
+</div>
+<!-- END DIENSTEN-->
 
 
 </body>
