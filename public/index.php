@@ -130,9 +130,32 @@
 </div>
 <!-- CONTACT -->
 <div class="contact">
+	<!-- titles -->
 	<div class="row">
-		<div class="col-12 col-m-12"><h5 id="contact-title">Contact</h5></div>
+		<div class="col-12 col-m-12"><h3 id="contact-title-one">Contact</h3></div>
 	</div>
+	<div class="row">
+		<div class="col-12 col-m-12"><h5 id="contact-title-two">Heeft u interesse? Neem dan contact op via het onderstaande contact formulier</h5></div>
+	</div>
+	<form action="#" method="POST">
+		<!-- Input fields -->
+		<div class="row">
+			<div class="col-4 col-m-4">
+				<input value="Naam" name="customer-name" type="text">
+			</div>
+			<div class="col-4 col-m-4">
+				<input value="E-mail" name="email" type="text">
+			</div>
+			<div class="col-4 col-m-4">
+				<input value="Onderwerp" name="onderwerp" type="text">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-m-12">
+				<textarea></textarea>
+			</div>
+		</div>
+	</form>
 </div>
 
 </body>

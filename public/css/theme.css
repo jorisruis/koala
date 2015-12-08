@@ -149,7 +149,11 @@ body{
     background-size: 100%;
 }
 
-#contact-title{
+#contact-title-one{
+	text-align: center;
+}
+
+#contact-title-two{
 	text-align: center;
 }
 
