@@ -104,6 +104,20 @@ body{
 	text-align: center;
 }
 
+.diensten{
+	background-color: #F7F8FA;
+}
+
+.diensten-circle{
+	width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color:#bdbdbd;
+    border-width: 1px;
+    background-color: white;
+}
+
 
 /* Images */
 img {

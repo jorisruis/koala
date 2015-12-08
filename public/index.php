@@ -62,14 +62,18 @@
 <!-- END HEADER DIENSTEN -->
 <!-- DIENSTEN -->
 <div class="row">
-	<div class="col-3 col-m-3">
-		<div class="diensten-circle-1">
-
-		</div>
+	<div class="col-3 col-m-3 diensten">
+		<div class="diensten-circle"></div>
 	</div>
-	<div class="col-3 col-m-3"></div>
-	<div class="col-3 col-m-3"></div>
-	<div class="col-3 col-m-3"></div>
+	<div class="col-3 col-m-3 diensten">
+		<div class="diensten-circle"></div>
+	</div>
+	<div class="col-3 col-m-3 diensten">
+		<div class="diensten-circle"></div>
+	</div>
+	<div class="col-3 col-m-3 diensten">
+		<div class="diensten-circle"></div>
+	</div>
 </div>
 <!-- END DIENSTEN-->
 
