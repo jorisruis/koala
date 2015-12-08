@@ -90,6 +90,7 @@ body{
 
 .services{
 	background-color: #F7F8FA;
+	border-bottom: solid 15px white;
 }
 
 .header-services{
@@ -114,17 +115,21 @@ body{
 	text-align:center;
 }
 
-.portfolio{
-	background-image: url("../images/splash-image.jpg");
+.portfolio {
+    background-image: url("../images/splash-image.jpg");
 	background-position: center;
-    background-position-x: 75%;
-    background-position-y: 75%;
+    background-position-x: 85%;
+    background-position-y: 85%;
     background-attachment: fixed;
     background-size: 100%;
+
+    width: 100%;
+
+	-webkit-filter: opacity(0.3) grayscale(1);
 }
 
 .portfolio-item{
-	
+
 }
 
 .portfolio-item-square{
@@ -146,8 +151,8 @@ img {
 #image-splash{
 	background-image: url("../images/splash-image.jpg");
 	background-position: center;
-    background-position-x: 75%;
-    background-position-y: 75%;
+    background-position-x: 85%;
+    background-position-y: 85%;
     background-attachment: fixed;
     background-size: 100%;
 	
@@ -161,6 +166,8 @@ img {
 	-webkit-box-shadow: inset 3px 33px 55px 0px rgba(0,0,0,0.40);
 	-moz-box-shadow: inset 3px 33px 55px 0px rgba(0,0,0,0.40);
 	box-shadow: inset 3px 33px 55px 0px rgba(0,0,0,0.40);
+	
+	-webkit-filter: grayscale(1);
 }
 
 #brand-image{
