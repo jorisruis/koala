@@ -1,0 +1,333 @@
+/* General stuff */
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    /*border: 1px solid red;*/
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+body{
+	margin: 0;
+	font-family: 'PT sans', serif;
+}
+
+/* Stuff that applies to every viewport */
+.topheader{
+	padding-top: 0;
+	padding-bottom: 0;
+	background-color: #559134;
+	color: white;
+	font-size: 80%;
+	border-bottom: solid 5px #F7F8FA;
+}
+
+.topheader-menu-left{
+	text-decoration: none;
+	text-align: left;
+}
+
+.topheader-menu-left li{
+	list-style-type: none;
+	display: inline;
+
+}
+
+.topheader-menu-right{
+	text-decoration: none;
+	text-align: right;
+}
+
+.topheader-menu-right li{
+	list-style-type: none;
+	display: inline;
+	padding: 5%;
+}
+
+#brand-name{
+	text-align: center;
+	margin:auto;
+}
+
+.menu{
+	padding:0;
+}
+
+.menu-list{
+	text-align: center;
+	margin: auto;
+	border-bottom: solid 5px #559134;
+}
+
+.menu-list li{
+	display: inline-block;
+	width: 15%;
+	position: relative;
+	min-height: 10%;
+	padding-top: 5%;
+}
+
+.menu-list li a{
+	text-decoration: none;
+	color: initial;
+}
+
+.menu-list li a:hover{
+	color: #559134;
+}
+
+.menu-list li a:active{
+	color: #328305;
+}
+
+.services{
+	background-color: #F7F8FA;
+	border-bottom: solid 15px white;
+}
+
+.header-services{
+	margin-top: 2%;
+	background-color: #F7F8FA;
+}
+
+.header-services-text{
+	text-align: center;
+}
+
+.services-circle{
+	width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    border: solid 1px #bdbdbd;
+    background-color: white;
+    margin: auto;
+}
+
+.services-circle-text{
+	text-align:center;
+}
+
+.portfolio {
+	background-color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.portfolio:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+	background-image: url("../images/splash-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+
+	-webkit-filter: blur(5px) opacity(0.3) grayscale(1);
+}
+
+.portfolio-item{
+	background-color: white;
+	z-index: 1;
+}
+
+.portfolio-item-square{
+	position:relative;
+	z-index:1;
+    width: 23vw;
+    height: 30vw;
+    border: solid 1px #bdbdbd;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.team-beschrijving{
+	background-color: #F7F8FA;
+}
+
+.contact{
+	background-color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.contact:before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+	background-image: url("../images/splash-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+
+	-webkit-filter: blur(5px) opacity(0.3) grayscale(1);
+}
+
+#contact-title-one{
+	text-align: center;
+}
+
+#contact-title-two{
+	text-align: center;
+}
+
+#contact-item-one{
+	text-align: right;
+}
+
+#contact-item-two{
+	text-align: center;
+}
+
+#contact-item-three{
+	text-align: left;
+}
+
+#contact-item-four{
+	text-align: center;
+}
+
+.media{
+	background-color:#559134;
+}
+
+#media-list{
+	margin:auto;
+	text-align:center;
+	border-color:#F7F8FA;
+}
+
+#media-list li{
+	padding-right:5%;
+	list-style-type: none;
+	display: inline;
+}
+
+#media-list li i{
+	color:white;
+}
+
+
+/* Images */
+img {
+    width: 100%;
+    height: auto;
+}
+
+#image-splash{
+	background-image: url("../images/splash-image.jpg");
+	background-position: center;
+    background-position-x: 85%;
+    background-position-y: 85%;
+    background-attachment: fixed;
+    background-size: 100%;
+	
+	width: 100%;
+	height: 24vw;
+	display: block;
+	margin: auto;
+	border-bottom: solid 5px #F7F8FA;
+	border-top: solid 5px #F7F8FA;
+
+	-webkit-box-shadow: inset 3px 33px 55px 0px rgba(0,0,0,0.40);
+	-moz-box-shadow: inset 3px 33px 55px 0px rgba(0,0,0,0.40);
+	box-shadow: inset 3px 33px 55px 0px rgba(0,0,0,0.40);
+	
+	-webkit-filter: grayscale(1);
+}
+
+#brand-image{
+	width: 21.63vw;
+	height: 4.845vw;
+	background-image: url("../images/brand-image.png");
+	background-size: cover;
+	display: block;
+	margin: auto;
+}
+
+/* Fonts */
+
+/* Desktop view */
+@media only screen and (min-width: 768px) {
+	[class*="col-"] {
+	        width: 100%;
+	    }
+
+    .col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+
+	/*body{
+		background-color: yellow;
+	}*/
+}
+
+
+/* Tablet view */
+@media only screen and (max-width: 767px) and (min-width: 460px) {
+    .col-m-1 {width: 8.33%;}
+	.col-m-2 {width: 16.66%;}
+	.col-m-3 {width: 25%;}
+	.col-m-4 {width: 33.33%;}
+	.col-m-5 {width: 41.66%;}
+	.col-m-6 {width: 50%;}
+	.col-m-7 {width: 58.33%;}
+	.col-m-8 {width: 66.66%;}
+	.col-m-9 {width: 75%;}
+	.col-m-10 {width: 83.33%;}
+	.col-m-11 {width: 91.66%;}
+	.col-m-12 {width: 100%;}
+
+/*	body{
+		background-color: red;
+	}*/
+}
+
+/* Mobile phone view */ 
+@media only screen and (max-width: 459px) {
+    /*body {
+        background-color: lightblue;
+    }*/
+}
