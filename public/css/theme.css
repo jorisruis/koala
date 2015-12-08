@@ -116,20 +116,36 @@ body{
 }
 
 .portfolio {
-    background-image: url("../images/splash-image.jpg");
-	background-position: center;
-    background-position-x: 85%;
-    background-position-y: 85%;
-    background-attachment: fixed;
-    background-size: 100%;
+	background-color: white;
+    position: relative;
+    overflow: hidden;
+}
 
+.portfolio:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+	background-image: url("../images/splash-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
 
-	-webkit-filter: opacity(0.3) grayscale(1);
+	-webkit-filter: blur(5px) opacity(0.3) grayscale(1);
 }
 
 .portfolio-item{
-
+	background-color: white;
 }
 
 .portfolio-item-square{
@@ -138,7 +154,6 @@ body{
     border: solid 1px #bdbdbd;
     background-color: white;
     margin: auto;
-    background-color: white;
 }
 
 .team-beschrijving{
@@ -146,12 +161,32 @@ body{
 }
 
 .contact{
+	background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact:before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
 	background-image: url("../images/splash-image.jpg");
-	background-position: center;
-    background-position-x: 75%;
-    background-position-y: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
     background-attachment: fixed;
-    background-size: 100%;
+
+	-webkit-filter: blur(5px) opacity(0.3) grayscale(1);
 }
 
 #contact-title-one{
