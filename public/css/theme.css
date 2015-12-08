@@ -16,49 +16,45 @@
 }
 
 body{
-	margin:0;
+	margin: 0;
 	font-family: 'PT sans', serif;
 }
 
 /* Stuff that applies to every viewport */
 .topheader{
-	padding-top:0;
-	padding-bottom:0;
+	padding-top: 0;
+	padding-bottom: 0;
 	background-color: #328305;
-	color:white;
-	font-size:80%;
+	color: white;
+	font-size: 80%;
+	border-bottom: solid 5px #e5e5e5;
 }
 
-.topheader-menu-1{
+.topheader-menu-left{
 	text-decoration: none;
+	text-align: left;
 }
 
-.topheader-menu-1 li{
+.topheader-menu-left li{
 	list-style-type: none;
 	display:inline;
+
 }
 
-.topheader-menu-2{
+.topheader-menu-right{
 	text-decoration: none;
+	text-align: right;
 }
 
-.topheader-menu-2 li{
+.topheader-menu-right li{
 	list-style-type: none;
 	display:inline;
-	padding-right:5%;
+	padding:5%;
 }
 
 #brand-name{
 	text-align: center;
 	margin:auto;
-}
-
-#brand-name h1{
-	margin-bottom:0;
-}
-
-#brand-name h3{
-	margin-top:0;
 }
 
 .menu{
@@ -147,9 +143,9 @@ img {
 }
 
 #brand-image{
-	width: 311px;
-	height: 85px;
-	background-image: url("../images/logo.png");
+	width: 290px;
+	height: 73px;
+	background-image: url("../images/brand-image.png");
 	background-size: cover;
 	display: block;
 	margin: auto;

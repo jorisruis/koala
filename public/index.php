@@ -5,13 +5,13 @@
 	<header>
 		<div class="row">
 			<div class="col-6 col-m-6 topheader">
-					<ul class="topheader-menu-1">
+					<ul class="topheader-menu-left">
 						<li>+565 975 658</li>
 						<li>mail@markvanderlaan.nl</li>
 					</ul>
 				</div>
 				<div class="col-6 col-m-6 topheader">
-					<ul class="topheader-menu-2 topheader-menu-m-2">
+					<ul class="topheader-menu-right topheader-menu-m-right">
 						<li>Latest News</li>
 						<li>Login</li>
 						<li>Register</li>
