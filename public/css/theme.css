@@ -95,6 +95,11 @@ body{
 }
 
 .diensten{
+	margin-top:2%;
+	background-color: #F7F8FA;
+}
+
+.diensten-text{
 	text-align: center;
 }
 
