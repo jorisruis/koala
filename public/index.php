@@ -171,7 +171,7 @@
 <!-- FOOTER -->
 <footer>
 	<div class="row">
-		<div class="col-6 col-m-6">
+		<div class="col-6 col-m-6 footer-section">
 			<ul id="footer-list">
 				<li>Home</li>
 				<li>Portfolio</li>
@@ -179,7 +179,7 @@
 				<li>Contact</li>
 			</ul>
 		</div>
-		<div class="col-6 col-m-6"></div>
+		<div class="col-6 col-m-6 footer-section"></div>
 	</div>
 </footer>
 
