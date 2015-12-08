@@ -63,16 +63,32 @@
 <!-- DIENSTEN -->
 <div class="row">
 	<div class="col-3 col-m-3 diensten">
-		<div class="diensten-circle"></div>
+		<div class="diensten-circle">
+			<span class="diensten-circle-text">
+				<h5>Responsive Design</h5>
+			</span>
+		</div>
 	</div>
 	<div class="col-3 col-m-3 diensten">
-		<div class="diensten-circle"></div>
+		<div class="diensten-circle">
+			<span class="diensten-circle-text">
+				<h5>Eigen CMS</h5>
+			</span>
+		</div>
 	</div>
 	<div class="col-3 col-m-3 diensten">
-		<div class="diensten-circle"></div>
+		<div class="diensten-circle">
+			<span class="diensten-circle-text">
+				<h5>Webdesign</h5>
+			</span>
+		</div>
 	</div>
 	<div class="col-3 col-m-3 diensten">
-		<div class="diensten-circle"></div>
+		<div class="diensten-circle">
+			<span class="diensten-circle-text">
+				<h5>Webdevelopment</h5>
+			</span>
+		</div>
 	</div>
 </div>
 <!-- END DIENSTEN-->

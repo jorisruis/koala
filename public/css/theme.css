@@ -116,6 +116,11 @@ body{
     border-color:#bdbdbd;
     border-width: 1px;
     background-color: white;
+    margin: auto;
+}
+
+.diensten-circle-text{
+	text-align:center;
 }
 
 
