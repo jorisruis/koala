@@ -26,8 +26,7 @@
 <div class="row">
 	<div class="col-12 col-m-12">
 		<div id="brand-name">
-			<h1>Koala</h1>
-			<h3>Webdevelopment</h3>
+			<div id="brand-image"></div>
 		</div>
 	</div>
 </div>
