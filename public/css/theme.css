@@ -140,6 +140,19 @@ body{
 	background-color: #F7F8FA;
 }
 
+.contact{
+	background-image: url("../images/splash-image.jpg");
+	background-position: center;
+    background-position-x: 75%;
+    background-position-y: 75%;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#contact-title{
+	text-align: center;
+}
+
 
 /* Images */
 img {

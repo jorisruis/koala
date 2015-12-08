@@ -128,7 +128,12 @@
 		<h5>PONYKAMP</h5>
 	</div>
 </div>
-
+<!-- CONTACT -->
+<div class="contact">
+	<div class="row">
+		<div class="col-12 col-m-12"><h5 id="contact-title">Contact</h5></div>
+	</div>
+</div>
 
 </body>
 
