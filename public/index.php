@@ -102,6 +102,32 @@
 		</div>
 	</div>
 </div>
+<!-- TEAM IMAGES -->
+<div class="row">
+	<div class="col-4 col-m-4">
+
+	</div>
+	<div class="col-4 col-m-4"></div>
+	<div class="col-4 col-m-4"></div>
+</div>
+<!-- TEAM DESCRIPTION -->
+<div class="row">
+	<div class="col-4 col-m-4 team-beschrijving">
+		<h4>Wesley Liefhebber, Front-End</h4>
+		<h5>21 jaar</h5>
+		<h5>Het leven is niet altijd een ponykamp</h5>
+	</div>
+	<div class="col-4 col-m-4 team-beschrijving">
+		<h4>Joris Ruis, Frond-End</h4>
+		<h5>21 jaar</h5>
+		<h5>moet korter</h5>
+	</div>
+	<div class="col-4 col-m-4 team-beschrijving">
+		<h4>Mark van der Laan, Back-End</h4>
+		<h5>21 jaar</h5>
+		<h5>PONYKAMP</h5>
+	</div>
+</div>
 
 
 </body>

@@ -126,7 +126,7 @@ body{
 }
 
 .portfolio-item{
-	
+
 }
 
 .portfolio-item-square{
@@ -138,6 +138,10 @@ body{
     background-color: white;
     margin: auto;
     background-color:white;
+}
+
+.team-beschrijving{
+	background-color: #F7F8FA;
 }
 
 
