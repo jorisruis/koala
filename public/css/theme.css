@@ -6,7 +6,7 @@
 [class*="col-"] {
     float: left;
     padding: 15px;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 
 .row:after {
@@ -159,6 +159,22 @@ body{
 }
 
 #contact-title-two{
+	text-align: center;
+}
+
+#contact-item-one{
+	text-align: right;
+}
+
+#contact-item-two{
+	text-align: center;
+}
+
+#contact-item-three{
+	text-align: left;
+}
+
+#contact-item-four{
 	text-align: center;
 }
 

@@ -140,19 +140,19 @@
 	<form action="#" method="POST">
 		<!-- Input fields -->
 		<div class="row">
-			<div class="col-4 col-m-4">
+			<div class="col-4 col-m-4" id="contact-item-one">
 				<input value="Naam" name="customer-name" type="text">
 			</div>
-			<div class="col-4 col-m-4">
+			<div class="col-4 col-m-4" id="contact-item-two">
 				<input value="E-mail" name="email" type="text">
 			</div>
-			<div class="col-4 col-m-4">
+			<div class="col-4 col-m-4" id="contact-item-three">
 				<input value="Onderwerp" name="onderwerp" type="text">
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-12 col-m-12">
-				<textarea></textarea>
+			<div class="col-12 col-m-12" id="contact-item-four">
+				<textarea rows="20" cols="110"></textarea>
 			</div>
 		</div>
 	</form>
