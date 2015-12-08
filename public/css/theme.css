@@ -220,6 +220,26 @@ body{
 	text-align: center;
 }
 
+.media{
+	background-color:#559134;
+}
+
+#media-list{
+	margin:auto;
+	text-align:center;
+	border-color:#F7F8FA;
+}
+
+#media-list li{
+	padding-right:5%;
+	list-style-type: none;
+	display: inline;
+}
+
+#media-list li i{
+	color:white;
+}
+
 
 /* Images */
 img {

@@ -157,6 +157,17 @@
 		</div>
 	</form>
 </div>
+<!-- MEDIA -->
+<div class="row">
+	<div class="col-12 col-m-12 media">
+		<ul id="media-list">
+			<li><i class="fa fa-rss fa-2x"></i></li>
+			<li><i class="fa fa-twitter fa-2x"></i></li>
+			<li><i class="fa fa-facebook fa-2x"></i></li>
+			<li><i class="fa fa-globe fa-2x"></i></li>
+		</ul>
+	</div>
+</div>
 
 </body>
 
