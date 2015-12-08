@@ -52,8 +52,8 @@
 <!-- END MENU -->
 <!-- HEADER DIENSTEN -->
 <div class="row">
-	<div class="col-12 col-m-12 diensten">
-		<div class="diensten-text">
+	<div class="col-12 col-m-12 header-diensten">
+		<div class="header-diensten-text">
 			<h3>Diensten</h3>
 			<h4>Koala biedt verschillende webdiensten volledig op maat</h4>
 		</div>
@@ -62,7 +62,11 @@
 <!-- END HEADER DIENSTEN -->
 <!-- DIENSTEN -->
 <div class="row">
-	<div class="col-3 col-m-3"></div>
+	<div class="col-3 col-m-3">
+		<div class="diensten-circle-1">
+
+		</div>
+	</div>
 	<div class="col-3 col-m-3"></div>
 	<div class="col-3 col-m-3"></div>
 	<div class="col-3 col-m-3"></div>

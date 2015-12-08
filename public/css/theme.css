@@ -69,7 +69,8 @@ body{
 	text-align: center;
 	margin:auto;
 	border-bottom-style: solid;
-	border-bottom-color:#328305;
+	border-bottom-color:#e0e0e0;
+	/* #328305 */
 }
 
 .menu-list li{
@@ -94,12 +95,12 @@ body{
 	color:#328305;
 }
 
-.diensten{
+.header-diensten{
 	margin-top:2%;
 	background-color: #F7F8FA;
 }
 
-.diensten-text{
+.header-diensten-text{
 	text-align: center;
 }
 
