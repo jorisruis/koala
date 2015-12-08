@@ -31,7 +31,7 @@
 </div>
 <!-- IMAGE HEADER -->
 <div class="row">
-	<img src="images/image-header.jpg" alt="image-header" id="image-header">
+	<div id="image-splash"></div>
 </div>
 <!-- MENU -->
 <div class="row">
@@ -47,8 +47,8 @@
 </div>
 <!-- HEADER DIENSTEN -->
 <div class="row">
-	<div class="col-12 col-m-12 header-diensten">
-		<div class="header-diensten-text">
+	<div class="col-12 col-m-12 header-services">
+		<div class="header-services-text">
 			<h3>Diensten</h3>
 			<h4>Mixture Webdevelopment biedt verschillende webdiensten volledig op maat</h4>
 		</div>
@@ -56,37 +56,37 @@
 </div>
 <!-- DIENSTEN -->
 <div class="row">
-	<div class="col-3 col-m-3 diensten">
-		<div class="diensten-circle">
-			<span class="diensten-circle-text">
+	<div class="col-3 col-m-3 services">
+		<div class="services-circle">
+			<span class="services-circle-text">
 				<h5>Responsive Design</h5>
 			</span>
 		</div>
 	</div>
-	<div class="col-3 col-m-3 diensten">
-		<div class="diensten-circle">
-			<span class="diensten-circle-text">
+	<div class="col-3 col-m-3 services">
+		<div class="services-circle">
+			<span class="services-circle-text">
 				<h5>Eigen CMS</h5>
 			</span>
 		</div>
 	</div>
-	<div class="col-3 col-m-3 diensten">
-		<div class="diensten-circle">
-			<span class="diensten-circle-text">
+	<div class="col-3 col-m-3 services">
+		<div class="services-circle">
+			<span class="services-circle-text">
 				<h5>Webdesign</h5>
 			</span>
 		</div>
 	</div>
-	<div class="col-3 col-m-3 diensten">
-		<div class="diensten-circle">
-			<span class="diensten-circle-text">
+	<div class="col-3 col-m-3 services">
+		<div class="services-circle">
+			<span class="services-circle-text">
 				<h5>Webdevelopment</h5>
 			</span>
 		</div>
 	</div>
 </div>
 <!-- PORTFOLIO -->
-<div class="row">
+<div class="row portfolio">
 	<div class="portfolio">
 		<div class="col-3 col-m-3 portfolio-item">
 			<div class="portfolio-item-square"></div>

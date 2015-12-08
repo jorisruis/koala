@@ -24,10 +24,10 @@ body{
 .topheader{
 	padding-top: 0;
 	padding-bottom: 0;
-	background-color: #328305;
+	background-color: #559134;
 	color: white;
 	font-size: 80%;
-	border-bottom: solid 5px #e5e5e5;
+	border-bottom: solid 5px #F7F8FA;
 }
 
 .topheader-menu-left{
@@ -37,7 +37,7 @@ body{
 
 .topheader-menu-left li{
 	list-style-type: none;
-	display:inline;
+	display: inline;
 
 }
 
@@ -48,8 +48,8 @@ body{
 
 .topheader-menu-right li{
 	list-style-type: none;
-	display:inline;
-	padding:5%;
+	display: inline;
+	padding: 5%;
 }
 
 #brand-name{
@@ -63,66 +63,64 @@ body{
 
 .menu-list{
 	text-align: center;
-	margin:auto;
-	border-bottom-style: solid;
-	border-bottom-color:#e0e0e0;
-	/* #328305 */
+	margin: auto;
+	border-bottom: solid 5px #559134;
 }
 
 .menu-list li{
 	display: inline-block;
 	width: 15%;
 	position: relative;
-	min-height: 100px;
-	/*background: #ccc;*/
+	min-height: 10%;
 	padding-top: 5%;
 }
 
 .menu-list li a{
 	text-decoration: none;
-	color:initial;
+	color: initial;
 }
 
 .menu-list li a:hover{
-	color:#328305;
+	color: #559134;
 }
 
 .menu-list li a:active{
-	color:#328305;
+	color: #328305;
 }
 
-.header-diensten{
-	margin-top:2%;
+.services{
 	background-color: #F7F8FA;
 }
 
-.header-diensten-text{
+.header-services{
+	margin-top: 2%;
+	background-color: #F7F8FA;
+}
+
+.header-services-text{
 	text-align: center;
 }
 
-.diensten{
-	background-color: #F7F8FA;
-}
-
-.diensten-circle{
+.services-circle{
 	width: 20vw;
     height: 20vw;
     border-radius: 50%;
-    border-style: solid;
-    border-color:#bdbdbd;
-    border-width: 1px;
+    border: solid 1px #bdbdbd;
     background-color: white;
     margin: auto;
 }
 
-.diensten-circle-text{
+.services-circle-text{
 	text-align:center;
 }
 
 .portfolio{
-	/* Dit staat nog niet goed! */
-	/*background-image: url("../images/background-portfolio.jpg");*/
-	/*background-repeat:no-repeat;*/
+	background-image: url("../images/splash-image.jpg");
+	background-position: center;
+    background-position-x: 75%;
+    background-position-y: 75%;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 .portfolio-item{
@@ -132,12 +130,10 @@ body{
 .portfolio-item-square{
     width: 23vw;
     height: 30vw;
-    border-style: solid;
-    border-color:#bdbdbd;
-    border-width: 1px;
+    border: solid 1px #bdbdbd;
     background-color: white;
     margin: auto;
-    background-color:white;
+    background-color: white;
 }
 
 .team-beschrijving{
@@ -151,14 +147,29 @@ img {
     height: auto;
 }
 
-#image-header{
-	border-bottom-style: solid;
-	border-bottom-color:#e0e0e0;
+#image-splash{
+	background-image: url("../images/splash-image.jpg");
+	background-position: center;
+    background-position-x: 75%;
+    background-position-y: 75%;
+    background-attachment: fixed;
+    background-size: 100%;
+	
+	width: 100%;
+	height: 24vw;
+	display: block;
+	margin: auto;
+	border-bottom: solid 5px #F7F8FA;
+	border-top: solid 5px #F7F8FA;
+
+	-webkit-box-shadow: inset 3px 33px 55px 0px rgba(0,0,0,0.40);
+	-moz-box-shadow: inset 3px 33px 55px 0px rgba(0,0,0,0.40);
+	box-shadow: inset 3px 33px 55px 0px rgba(0,0,0,0.40);
 }
 
 #brand-image{
-	width:29vw;
-	height:7.3vw;
+	width: 21.63vw;
+	height: 4.845vw;
 	background-image: url("../images/brand-image.png");
 	background-size: cover;
 	display: block;
