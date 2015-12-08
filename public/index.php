@@ -86,8 +86,8 @@
 	</div>
 </div>
 <!-- PORTFOLIO -->
-<div class="row portfolio">
-	<div class="portfolio">
+<div class="portfolio">
+	<div class="row">
 		<div class="col-3 col-m-3 portfolio-item">
 			<div class="portfolio-item-square"></div>
 		</div>
