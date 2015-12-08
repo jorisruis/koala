@@ -158,6 +158,8 @@ body{
     border: solid 1px #bdbdbd;
     background-color: white;
     margin: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .team-beschrijving{
