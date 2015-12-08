@@ -122,18 +122,22 @@ body{
 .portfolio{
 	/* Dit staat nog niet goed! */
 	/*background-image: url("../images/background-portfolio.jpg");*/
-	background-color: black;
 	/*background-repeat:no-repeat;*/
 }
 
 .portfolio-item{
-	background-color:white;
+	
 }
 
 .portfolio-item-square{
-	background: #000;
-    width: 50vw;
-    height: 50vw;
+    width: 23vw;
+    height: 30vw;
+    border-style: solid;
+    border-color:#bdbdbd;
+    border-width: 1px;
+    background-color: white;
+    margin: auto;
+    background-color:white;
 }
 
 
