@@ -240,6 +240,17 @@ body{
 	color:white;
 }
 
+footer{
+	background-color:#2a2b2c;
+}
+
+#footer-list li{
+	color:gray;
+	list-style-type: none;
+	display: inline;
+	padding-right:5%;
+}
+
 
 /* Images */
 img {

@@ -168,6 +168,20 @@
 		</ul>
 	</div>
 </div>
+<!-- FOOTER -->
+<footer>
+	<div class="row">
+		<div class="col-6 col-m-6">
+			<ul id="footer-list">
+				<li>Home</li>
+				<li>Portfolio</li>
+				<li>Team</li>
+				<li>Contact</li>
+			</ul>
+		</div>
+		<div class="col-6 col-m-6"></div>
+	</div>
+</footer>
 
 </body>
 
