@@ -135,6 +135,15 @@ img {
 	border-bottom-color:#e0e0e0;
 }
 
+#brand-image{
+	width: 311px;
+	height: 85px;
+	background-image: url("../images/logo.png");
+	background-size: cover;
+	display: block;
+	margin: auto;
+}
+
 /* Fonts */
 
 /* Desktop view */
