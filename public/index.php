@@ -31,7 +31,7 @@
 </div>
 <!-- IMAGE HEADER -->
 <div class="row">
-	<img src="images/image-header.jpg" alt="image-header" id="image-header">
+	<div id="image-splash"></div>
 </div>
 <!-- MENU -->
 <div class="row">
