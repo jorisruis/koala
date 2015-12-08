@@ -21,7 +21,6 @@
 			</div>
 		</div>
 	</header>
-<!-- END HEADER -->
 <!-- BRAND NAME -->
 <div class="row">
 	<div class="col-12 col-m-12">
@@ -30,12 +29,10 @@
 		</div>
 	</div>
 </div>
-<!-- END BRAND NAME -->
 <!-- IMAGE HEADER -->
 <div class="row">
 	<img src="images/image-header.jpg" alt="image-header" id="image-header">
 </div>
-<!-- END IMAGE HEADER -->
 <!-- MENU -->
 <div class="row">
 	<div class="col-12 col-m-12 menu">
@@ -48,7 +45,6 @@
 		</ul>
 	</div>
 </div>
-<!-- END MENU -->
 <!-- HEADER DIENSTEN -->
 <div class="row">
 	<div class="col-12 col-m-12 header-diensten">
@@ -58,7 +54,6 @@
 		</div>
 	</div>
 </div>
-<!-- END HEADER DIENSTEN -->
 <!-- DIENSTEN -->
 <div class="row">
 	<div class="col-3 col-m-3 diensten">
@@ -90,7 +85,8 @@
 		</div>
 	</div>
 </div>
-<!-- END DIENSTEN-->
+<!-- PORTFOLIO -->
+
 
 
 </body>
