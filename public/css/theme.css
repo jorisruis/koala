@@ -21,7 +21,7 @@ body{
 }
 
 /* Stuff that applies to every viewport */
-.topheader{
+/*.topheader{
 	padding-top: 0;
 	padding-bottom: 0;
 	background-color: #559134;
@@ -30,15 +30,9 @@ body{
 	border-bottom: solid 5px #F7F8FA;
 }
 
-.topheader-menu-left{
-	text-decoration: none;
-	text-align: left;
-}
-
 .topheader-menu-left li{
 	list-style-type: none;
 	display: inline;
-
 }
 
 .topheader-menu-right{
@@ -50,6 +44,20 @@ body{
 	list-style-type: none;
 	display: inline;
 	padding: 5%;
+}*/
+.topheader{
+	background-color: #559134;
+	color:white;
+	font-size: 80%;
+	text-decoration: none;
+	border-bottom: solid 5px #F7F8FA;
+	padding:0;
+}
+
+.topheader-menu li{
+	list-style-type: none;
+	display: inline;
+	padding-right: 5%;
 }
 
 #brand-name{
@@ -320,9 +328,9 @@ img {
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
 
-	/*body{
-		background-color: yellow;
-	}*/
+	.topheader-hide-d{
+		display:none;
+	}
 }
 
 
@@ -341,9 +349,14 @@ img {
 	.col-m-11 {width: 91.66%;}
 	.col-m-12 {width: 100%;}
 
-/*	body{
-		background-color: red;
-	}*/
+	.topheader-hide-m{
+		display:none;
+	}
+
+	.topheader-m{
+		text-align:right;
+		/*padding-top:2.5%;*/
+	}
 }
 
 /* Mobile phone view */ 
@@ -351,4 +364,8 @@ img {
     /*body {
         background-color: lightblue;
     }*/
+
+    .topheader-menu-s-right{
+    	display:none;
+    }
 }

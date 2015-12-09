@@ -4,20 +4,15 @@
 	<!-- HEADER -->
 	<header>
 		<div class="row">
-			<div class="col-6 col-m-6 topheader">
-					<ul class="topheader-menu-left">
-						<li>+565 975 658</li>
-						<li>mail@markvanderlaan.nl</li>
-					</ul>
-				</div>
-				<div class="col-6 col-m-6 topheader">
-					<ul class="topheader-menu-right topheader-menu-m-right">
-						<li>Latest News</li>
-						<li>Login</li>
-						<li>Register</li>
-						<li>About Us</li>
-					</ul>
-				</div>
+			<div class="col-12 col-m-12 topheader">
+				<ul class="topheader-menu">
+					<li>+565 975 658</li>
+					<li>mail@markvanderlaan.nl</li>
+					<li>Latest News</li>
+					<li>Login</li>
+					<li>Register</li>
+					<li>About Us</li>
+				</ul>
 			</div>
 		</div>
 	</header>
