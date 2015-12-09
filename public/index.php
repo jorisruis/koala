@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="col-12 col-m-12 topheader">
 				<ul class="topheader-menu">
-					<li>+565 975 658</li>
+					<li class="hide-m">+565 975 658</li>
 					<li>mail@markvanderlaan.nl</li>
 					<li>Latest News</li>
 					<li>Login</li>

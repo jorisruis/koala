@@ -344,10 +344,15 @@ img {
 	.col-m-10 {width: 83.33%;}
 	.col-m-11 {width: 91.66%;}
 	.col-m-12 {width: 100%;}
+
+	.hide-m{
+		display:none;
+	}
 }
 
 /* Mobile phone view */ 
 @media only screen and (max-width: 459px) {
-
-
+	.hide-s{
+		display:none;
+	}
 }
