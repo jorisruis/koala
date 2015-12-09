@@ -21,7 +21,7 @@ body{
 }
 
 /* Stuff that applies to every viewport */
-.topheader{
+/*.topheader{
 	padding-top: 0;
 	padding-bottom: 0;
 	background-color: #559134;
@@ -30,15 +30,9 @@ body{
 	border-bottom: solid 5px #F7F8FA;
 }
 
-.topheader-menu-left{
-	text-decoration: none;
-	text-align: left;
-}
-
 .topheader-menu-left li{
 	list-style-type: none;
 	display: inline;
-
 }
 
 .topheader-menu-right{
@@ -50,6 +44,20 @@ body{
 	list-style-type: none;
 	display: inline;
 	padding: 5%;
+}*/
+.topheader{
+	background-color: #559134;
+	color:white;
+	font-size: 80%;
+	text-decoration: none;
+	border-bottom: solid 5px #F7F8FA;
+	padding:0;
+}
+
+.topheader-menu li{
+	list-style-type: none;
+	display: inline;
+	padding-right: 5%;
 }
 
 #brand-name{
@@ -319,10 +327,6 @@ img {
 	.col-10 {width: 83.33%;}
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
-
-	/*body{
-		background-color: yellow;
-	}*/
 }
 
 
@@ -341,14 +345,14 @@ img {
 	.col-m-11 {width: 91.66%;}
 	.col-m-12 {width: 100%;}
 
-/*	body{
-		background-color: red;
-	}*/
+	.hide-m{
+		display:none;
+	}
 }
 
 /* Mobile phone view */ 
 @media only screen and (max-width: 459px) {
-    /*body {
-        background-color: lightblue;
-    }*/
+	.hide-s{
+		display:none;
+	}
 }
